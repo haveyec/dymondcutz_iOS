@@ -28,6 +28,7 @@ struct HomeViewCollection:View {
 					Spacer()
 					Spacer()
 					HStack {
+						Spacer()
 						Text("Post goes here")
 						Spacer()
 					}
