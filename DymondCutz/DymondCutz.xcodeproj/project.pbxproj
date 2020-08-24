@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7761B82324EC792B00599CEB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7761B82224EC792B00599CEB /* ProfileView.swift */; };
+		7761B82624F1787400599CEB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7761B82524F1787300599CEB /* UserViewController.swift */; };
+		7761B82824F1833400599CEB /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7761B82724F1833400599CEB /* NetworkViewController.swift */; };
 		778DE67D24B363E4000927F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DE67C24B363E4000927F1 /* AppDelegate.swift */; };
 		778DE67F24B363E4000927F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DE67E24B363E4000927F1 /* SceneDelegate.swift */; };
 		778DE68124B363E4000927F1 /* DatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778DE68024B363E4000927F1 /* DatingView.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7761B82224EC792B00599CEB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7761B82524F1787300599CEB /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		7761B82724F1833400599CEB /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		778DE67924B363E4000927F1 /* DymondCutz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DymondCutz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		778DE67C24B363E4000927F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		778DE67E24B363E4000927F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7761B82424F1782C00599CEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7761B82524F1787300599CEB /* UserViewController.swift */,
+				7761B82724F1833400599CEB /* NetworkViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		778DE67024B363E4000927F1 = {
 			isa = PBXGroup;
 			children = (
+				7761B82424F1782C00599CEB /* Controllers */,
 				778DE67B24B363E4000927F1 /* DymondCutz */,
 				778DE67A24B363E4000927F1 /* Products */,
 			);
@@ -72,6 +88,7 @@
 				778DE69024B385D1000927F1 /* HomeView.swift */,
 				778DE69224B3B506000927F1 /* HomeViewCollection.swift */,
 				778DE69424B3B5CD000927F1 /* DataModel.swift */,
+				7761B82224EC792B00599CEB /* ProfileView.swift */,
 			);
 			path = DymondCutz;
 			sourceTree = "<group>";
@@ -156,10 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				778DE69324B3B507000927F1 /* HomeViewCollection.swift in Sources */,
+				7761B82624F1787400599CEB /* UserViewController.swift in Sources */,
 				778DE67D24B363E4000927F1 /* AppDelegate.swift in Sources */,
 				778DE69124B385D1000927F1 /* HomeView.swift in Sources */,
 				778DE67F24B363E4000927F1 /* SceneDelegate.swift in Sources */,
 				778DE68124B363E4000927F1 /* DatingView.swift in Sources */,
+				7761B82324EC792B00599CEB /* ProfileView.swift in Sources */,
+				7761B82824F1833400599CEB /* NetworkViewController.swift in Sources */,
 				778DE69524B3B5CD000927F1 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

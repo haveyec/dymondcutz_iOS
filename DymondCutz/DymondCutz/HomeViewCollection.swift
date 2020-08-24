@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct HomeViewCollection:View {
-	var listName = [User(name: "Marlon",profileImage:Image("person")),User(name: "Havic",profileImage:Image("person")),User(name: "Marly Marl",profileImage:Image("person"))]
+	var listName = [User(name: "Marlon",profileImage:Image("person")),User(name: "Havic",profileImage:Image("person")),User(name: "Marly Marl",profileImage:Image("person")),User(name: "test", profileImage: Image("person")),User(name: "Test3", profileImage: Image("person"))]
 	var body: some View {
 		VStack {
 			List(listName){item in

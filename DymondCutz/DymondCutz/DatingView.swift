@@ -22,21 +22,44 @@ struct DatingView: View {
 			Spacer()
 			HStack{
 				VStack {
-					Image("timer").foregroundColor(.white)
+					Button(action: {
+						//Do something here
+					}){
+						Image("timer").foregroundColor(.white)
+
+					}
+
 					Text("Remind me").foregroundColor(.white)
 				}
 				Spacer()
 				VStack {
-					Image("chat").foregroundColor(.white)
+					Button(action: {
+						//Do something here
+					}){
+						Image("chat").foregroundColor(.white)
+
+					}
+
 					Text("Send Message").foregroundColor(.white)
 				}
 
 			}
 			Spacer(minLength: 10)
 			HStack{
-				Image("decline").foregroundColor(.white)
+				Button(action: {
+
+				}){
+					Image("decline").foregroundColor(.red)
+
+				}
 				Spacer()
-				Image("accept").foregroundColor(.white)
+				Button(action: {
+					//Do something here
+				}){
+					Image("accept").foregroundColor(.green)
+
+				}
+
 
 			}
 			Spacer()
